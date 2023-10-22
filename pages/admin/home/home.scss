@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 5;
+
+    .widgets,
+    .charts {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      padding-bottom: 10px;
+    }
+
+    .charts {
+      display: flex;
+      padding: 5px 20px;
+    }
+    .listContianers {
+      padding: 20px;
+
+      .listTitle {
+        color: grey;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 4px;
+      }
+    }
+  }
+}
